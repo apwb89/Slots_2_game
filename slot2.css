@@ -1,0 +1,33 @@
+* {
+    font-family:'Press Start 2P'
+}
+
+.slot {
+    border-radius: 10px;
+    background-color: rgb(43, 131, 202);
+    width: 90%;
+    padding: 50px;
+    border: 50px;
+    border-color: black;
+    border-style: double;
+    display: inline-block;
+    font-size: 3rem;
+    margin: 0 auto;
+}
+
+button {
+    border-radius: 10px;
+    position: static;
+    display: block;
+    size: 3rem;
+    width: 90%;
+    padding: 50px;
+    background-color: rgb(43, 131, 202);
+    padding: 50px;
+    margin: 0 auto;
+    
+}
+
+#win {
+    visibility: hidden;
+}
