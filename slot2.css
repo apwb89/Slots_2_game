@@ -1,18 +1,62 @@
 * {
-    font-family:'Press Start 2P'
+    font-family:'Press Start 2P';
+    margin: 10px;
+    padding: 0px;
+}
+
+body {
+    color:rgb(0, 0, 0);
+    background-color: rgb(24, 22, 22);
+}
+
+#headInfo {
+    color: white;
+    display: inline-block;
+    border: 10px; 
+    margin: 10px;
+    width: 100%;
+}
+
+#gameTitle {
+    float: left;
+    margin: 10px;
+}
+
+#coinDisplay {
+    float: right;
+    margin: right 400px;
+    position: relative;
+}
+
+main {
+    margin-top: 20px;
+    position: relative;
+    height: 400px;
+    display: grid;
 }
 
 .slot {
     border-radius: 10px;
     background-color: rgb(43, 131, 202);
-    width: 90%;
+    width: fit-content;
+    height: fit-content;
     padding: 50px;
     border: 50px;
     border-color: black;
     border-style: double;
     display: inline-block;
-    font-size: 3rem;
+    font-size: 5rem;
     margin: 0 auto;
+    position: static;
+    text-align: center;
+}
+
+#popupShopWindow{
+    display: hidden;
+}
+
+#buttons {
+    position:sticky
 }
 
 button {
@@ -20,12 +64,20 @@ button {
     position: static;
     display: block;
     size: 3rem;
-    width: 90%;
+    width: 40%;
     padding: 50px;
     background-color: rgb(43, 131, 202);
-    padding: 50px;
-    margin: 0 auto;
-    
+    margin: 2 auto;
+    display: inline-block;
+    font-size: xx-large;
+}
+
+#shopButton {
+    float: left;
+}
+
+#spinButton {
+    float: right;
 }
 
 #win {

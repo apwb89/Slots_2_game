@@ -12,12 +12,28 @@
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
+    <section id="headInfo">
+        <p id="gameTitle">Game Title</p>
+        <p id="coinDisplay">Coins : 100</p> 
+    </section>
+
+    <main id="slots">
+        <p class="slot" id="slot1">*</p>
+
+        <p class="message" id="win">You win</p>
+    </main>
+
+    <section id="popupShopWindow">
+
+    </section>
     
-    <p class="slot" id="slot1">1st Slot</p>
+    <section id="buttons">
+        <button id="shopButton">SHOP</button>
+        <button id="spinButton" onclick="masterSpin()">SPIN</button>
+    </section>
     <br>
-    <button id="spinButton" onclick="masterSpin()">SPIN</button>
-    <br>
-    <p class="message" id="win">You win</p>
+    
+    
     
 
 </body>
